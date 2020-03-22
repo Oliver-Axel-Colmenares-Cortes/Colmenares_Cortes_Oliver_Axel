@@ -1,0 +1,19 @@
+filas=int(input("INTRODUCE LAS FILAS DE LAS FIGURAS:"))
+
+print("\n1) TRIANGULO SUPERIOR\n")
+for i in range(1,(filas+1)):
+    print("* "*i)
+    
+print("\n2) TRIANGULO INFERIOR\n")
+for i in range(filas,-1,-1):
+    print("* "*i)
+    
+print("\n3) TRIANGULO TOTAL\n")
+for i in range(1,filas):
+    print("* "*i)
+for j in range (filas,-1,-1):
+    print("* "*j)
+
+print("\n4) CUADRADO\n")
+for i in range(0,filas):
+    print("* "*filas)
