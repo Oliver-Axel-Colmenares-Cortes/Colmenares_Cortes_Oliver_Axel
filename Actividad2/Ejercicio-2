@@ -1,0 +1,10 @@
+"""
+INTRODUCIR 1 NUMERO ENTERO N
+SU VALOR ABSOLUTO DEBE SER MENOR A 10^4
+"""
+print("EJERCICIO 2")
+N = int(input())
+if abs(N)<=10**4:
+    SUMA =(N/2)*(N+1)
+    print(SUMA)
+            
