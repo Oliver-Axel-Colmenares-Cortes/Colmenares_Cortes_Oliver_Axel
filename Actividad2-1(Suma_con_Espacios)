@@ -1,0 +1,12 @@
+"""
+INTRODUCIR 2 NUMEROS SEPARADOS POR ESPACIO
+EL PRIMERO DEBE SER MAYOR O IGUAL A 0 
+EL SEGUNDO DEBE SER MENOR O IGUAL A 10
+"""
+print("EJERCICIO 1")
+numeros = input()
+listaEntrada = list(map(int, numeros.split()))
+if len(listaEntrada)==2:
+    if listaEntrada[0]>=0 and listaEntrada[1]<=10:
+            SUMA=listaEntrada[0]+listaEntrada[1]
+            print(SUMA)
